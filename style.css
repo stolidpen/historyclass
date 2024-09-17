@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    color: #493423;
+    scroll-behavior: smooth;
+    font-family: "Inconsolata", monospace;
+}
+
+.background1 {
+    background-image: url("Img/Background/1.png");
+    min-height: 720px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background2 {
+    background-image: url("Img/Background/2.png");
+    min-height: 720px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background3 {
+    background-image: url("Img/Background/3.png");
+    min-height: 720px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background4 {
+    background-image: url("Img/Background/4.png");
+    min-height: 720px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background5 {
+    background-image: url("Img/Background/6.png");
+    min-height: 720px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.co-welcome {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.co-welcome h1 {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.co-welcome h2 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.co-welcome h3 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.co-welcome h4 {
+    font-size: 50px;
+    font-weight: 500;
+    text-align: end;
+}
+
+.button-co {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 100px;
+    text-align: end;
+}
+
+
+.button-co img {
+    width: 300px;
+    transition: 400ms;
+}
+
+
+.button-co img:hover{
+    width: 280px;
+}
+
+.button-co-grid img:hover{
+    width: 300px;
+}
+
+.heading-asal {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.heading-asal h1 {
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.grid-button {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.button-co-grid img {
+    width: 350px;
+    transition: 400ms;
+}
+
+.button-co-grid {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+.button-back {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+.button-back img {
+    width: 350px;
+}
+
+.grid-menu-materi {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
