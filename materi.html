@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Materi</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -16,7 +18,7 @@
                 <h2>Menu</h2>
                 <div class="grid-menu-materi">
                     <a href="">
-                        <div class="button-co-desgn">
+                        <div class="">
                             <h3>Paleolitikum</h3>
                         </div>
                     </a>
@@ -36,6 +38,16 @@
                         </div>
                     </a>
                 </div>
+                <div class="popup" onclick="myFunction()">Click me!
+                    <span class="popuptext" id="myPopup">Popup text...</span>
+                </div>
+                <script>
+                    // When the user clicks on <div>, open the popup
+                    function myFunction() {
+                        var popup = document.getElementById("myPopup");
+                        popup.classList.toggle("show");
+                    }
+                </script>
             </div>
         </div>
     </div>
